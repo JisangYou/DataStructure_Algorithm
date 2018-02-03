@@ -1,3 +1,0 @@
-INDEX VERSION 1.130+C:\Users\JisangYou\workspace\Programming_Practice\DataStructure_Algorithm_Practice\.metadata\.plugins\org.eclipse.jdt.core
-1571643813.index
-1772344813.index
