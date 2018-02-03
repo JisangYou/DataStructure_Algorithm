@@ -1,6 +1,6 @@
-package Sort;
+package Example_Studying;
 
-public class insertion {
+public class InsertionSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -30,6 +30,3 @@ public class insertion {
 	}
 
 }
-
-
-//개념 및 시간 복잡도 추가하기

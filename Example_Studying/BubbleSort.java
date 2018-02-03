@@ -1,6 +1,6 @@
-package Sort;
+package Example_Studying;
 
-public class bubble {
+public class BubbleSort {
 
 	public static void main(String[] args) {
 		int[] index = { 8, 4, 7, 3, 1, 6, 5, 2 };
@@ -21,7 +21,4 @@ public class bubble {
 		}
 
 	}
-
 }
-
-//개념 및 시간 복잡도 추가하기

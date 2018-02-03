@@ -1,6 +1,6 @@
-package Sort;
+package Example_Studying;
 
-public class selection {
+public class SelectionSort {
 
 	public static void main(String[] args) {
 		int[] index = { 5, 4, 7, 1, 8, 3, 2, 6, 11,124 };
