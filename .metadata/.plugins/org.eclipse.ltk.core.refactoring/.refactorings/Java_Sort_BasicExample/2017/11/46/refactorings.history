@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;BubbleSort&apos; to &apos;Sort&apos;&#x0D;&#x0A;- Original project: &apos;Sort&apos;&#x0D;&#x0A;- Original element: &apos;Sort/src/BubbleSort&apos;&#x0D;&#x0A;- Renamed element: &apos;Sort/src/Sort&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;BubbleSort&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;BubbleSort" name="Sort" qualified="false" references="true" stamp="1510661313998" textual="false" version="1.0"/>
+</session>
