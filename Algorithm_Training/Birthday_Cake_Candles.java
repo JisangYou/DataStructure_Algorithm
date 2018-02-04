@@ -14,8 +14,7 @@ public class Birthday_Cake_Candles {
 		for (int i = 0; i < n; i++) {
 			if (ar[n - 1] == ar[i]) {
 				count++;
-				System.out.print("ar[i] == " + ar[i]);
-				System.out.print(count);
+				
 			}
 		}
 
