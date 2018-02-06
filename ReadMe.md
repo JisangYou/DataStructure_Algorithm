@@ -1,1 +1,1 @@
-[d](DataStructure_Algorithm/Algorithm_Training/A_Very_Big_Sum.java)
+# 알고리즘과 자료구조 페이지
