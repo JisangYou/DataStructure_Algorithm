@@ -2,7 +2,7 @@
 
 ## Arrays_DS
 
-![arrays_ds](https://user-images.githubusercontent.com/31605792/35870108-2124c060-0ba4-11e8-9a5f-f41815de5860.png)
+[URL]()
 
 ## issue
 
