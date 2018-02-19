@@ -1,8 +1,8 @@
-package Algorithm_Training;
+package Example_Studying;
 
 import java.util.Scanner;
 
-public class Recursion {
+public class Day9_Recursion {
 	
 	// Àç±Í ÇÔ¼ö!
 

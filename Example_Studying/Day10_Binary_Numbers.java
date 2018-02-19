@@ -1,8 +1,8 @@
-package Algorithm_Training;
+package Example_Studying;
 
 import java.util.Scanner;
 
-public class Binary_Numbers {
+public class Day10_Binary_Numbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,10 +1,10 @@
-package Algorithm_Training;
+package Example_Studying;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Arrays {
+public class Day7_Arrays {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

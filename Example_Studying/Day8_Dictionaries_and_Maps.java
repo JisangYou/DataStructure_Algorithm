@@ -1,10 +1,10 @@
-package Algorithm_Training;
+package Example_Studying;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Dictionaries_and_Maps {
+public class Day8_Dictionaries_and_Maps {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

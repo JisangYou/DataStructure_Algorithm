@@ -1,9 +1,9 @@
-package Algorithm_Training;
+package Example_Studying;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Lets_Review {
+public class Day6_Lets_Review {
 	
 	// 추후 보강이 필요함----------------------------------------
 
