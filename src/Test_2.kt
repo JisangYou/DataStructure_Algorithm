@@ -26,11 +26,21 @@ fun getWarmth(color: Color) = when (color) {
     Color.BLUE, Color.INDIGO, Color.VIOLET -> "cold"
 }
 
+
+fun mix(c1: Color, c2: Color) =
+    when (setOf(c1, c2)) { // when 식의 인자로 아무 객체나 사용할 수 있다. when은 이렇게 인자로 받은 객체가 각 분기 조건에 있는 객체와 같은지 테스트한다.
+        setOf(Color.RED, Color.YELLOW) -> Color.ORANGE
+        setOf(Color.YELLOW, Color.BLUE) -> Color.GREEN
+        setOf(Color.BLUE, Color.VIOLET) -> Color.INDIGO
+        else -> throw Exception("Dirty color")
+    }
+
+
 fun main(args: Array<String>) {
     println(Color.BLUE.rgb())
     println(getMnemonic(Color.BLUE))
     println(getWarmth(Color.ORANGE))
-
+    print(mix(Color.BLUE, Color.YELLOW))
 }
 
 
