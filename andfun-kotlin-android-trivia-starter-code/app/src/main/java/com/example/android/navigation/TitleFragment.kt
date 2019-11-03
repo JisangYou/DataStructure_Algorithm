@@ -27,15 +27,28 @@ class TitleFragment : Fragment() {
         binding.playButton.setOnClickListener(
                 Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
         )
+        /**
+         * Tells Android that the fragment has a menu
+         */
         setHasOptionsMenu(true)
         return binding.root
     }
 
+    /**
+     * where you inflate your menu
+     */
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
+        /**
+         * used by navigation to determine where to navigate
+         */
         inflater?.inflate(R.menu.overflow_menu,menu)
     }
 
+    /**
+     * called when a menu item is selected
+     */
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return NavigationUI.onNavDestinationSelected(item!!,
                 view!!.findNavController())
