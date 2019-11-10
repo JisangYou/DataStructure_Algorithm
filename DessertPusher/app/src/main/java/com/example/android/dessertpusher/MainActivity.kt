@@ -26,6 +26,7 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LifecycleObserver
 import com.example.android.dessertpusher.databinding.ActivityMainBinding
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity(), LifecycleObserver {
 
@@ -65,6 +66,9 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        /**
+         * 최초 실행시, 리소스 세팅 등
+         */
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
@@ -145,5 +149,37 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
             R.id.shareMenuButton -> onShare()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        /**
+         * 액티비티가 보여질떄
+         */
+        Timber.i("onStart Called")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        /**
+         * 액티비티 focus
+         */
+        Timber.i("onResume Called")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        /**
+         * 액티비티 focus 사라질때
+         */
+        Timber.i("onPause Called")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        /**
+         * 액티비티가 사라질떄
+         */
+        Timber.i("onStop Called")
     }
 }
