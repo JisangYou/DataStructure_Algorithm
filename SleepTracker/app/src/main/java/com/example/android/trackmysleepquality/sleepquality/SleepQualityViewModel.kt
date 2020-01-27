@@ -24,9 +24,7 @@ import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
 import kotlinx.coroutines.*
 
-class SleepQualityViewModel(
-        private val sleepNightKey: Long = 0L,
-        val database: SleepDatabaseDao) : ViewModel() {
+class SleepQualityViewModel(private val sleepNightKey: Long = 0L, val database: SleepDatabaseDao) : ViewModel() {
 
     private val viewModelJob = Job()
 
