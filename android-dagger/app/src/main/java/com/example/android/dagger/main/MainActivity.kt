@@ -26,10 +26,28 @@ import com.example.android.dagger.R
 import com.example.android.dagger.login.LoginActivity
 import com.example.android.dagger.registration.RegistrationActivity
 import com.example.android.dagger.settings.SettingsActivity
+import com.example.android.dagger.user.UserManager
+import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var mainViewModel: MainViewModel
+    //    private lateinit var mainViewModel: MainViewModel
+    // @Inject annotated fields will be provided by Dagger
+
+
+    /**
+     *
+     * Important: Dagger-injected fields cannot be private. They need to have at least package-private visibility.
+     *
+     */
+    
+    @Inject
+//    private lateinit var userManager: UserManager
+    lateinit var userManager: UserManager
+
+    @Inject
+//    private lateinit var mainViewModel: MainViewModel
+    lateinit var mainViewModel: MainViewModel
 
     /**
      * If the User is not registered, RegistrationActivity will be launched,
@@ -37,9 +55,10 @@ class MainActivity : AppCompatActivity() {
      * else carry on with MainActivity
      */
     override fun onCreate(savedInstanceState: Bundle?) {
+        (application as MyApplication).appComponent.inject(this)
         super.onCreate(savedInstanceState)
 
-        val userManager = (application as MyApplication).userManager
+//        val userManager = (application as MyApplication).userManager
         if (!userManager.isUserLoggedIn()) {
             if (!userManager.isUserRegistered()) {
                 startActivity(Intent(this, RegistrationActivity::class.java))
@@ -51,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             setContentView(R.layout.activity_main)
 
-            mainViewModel = MainViewModel(userManager.userDataRepository!!)
+//            mainViewModel = MainViewModel(userManager.userDataRepository!!)
             setupViews()
         }
     }
@@ -71,3 +90,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
