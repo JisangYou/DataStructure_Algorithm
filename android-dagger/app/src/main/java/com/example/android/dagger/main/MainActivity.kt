@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
      * Important: Dagger-injected fields cannot be private. They need to have at least package-private visibility.
      *
      */
-    
+
     @Inject
 //    private lateinit var userManager: UserManager
     lateinit var userManager: UserManager
