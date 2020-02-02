@@ -29,6 +29,9 @@ import javax.inject.Inject
 class RegistrationActivity : AppCompatActivity() {
 
 
+    // Stores an instance of RegistrationComponent so that its Fragments can access it
+    lateinit var registrationComponent: RegistrationComponent
+
     @Inject
     lateinit var registrationViewModel: RegistrationViewModel
 
@@ -36,8 +39,14 @@ class RegistrationActivity : AppCompatActivity() {
 
         // Grabs instance of the application graph
         // and populates @Inject fields with objects from the graph
-        (application as MyApplication).appComponent.inject(this)
+//        (application as MyApplication).appComponent.inject(this)
 
+
+        // Creates an instance of Registration component by grabbing the factory from the app graph
+        registrationComponent =
+            (application as MyApplication).appComponent.registrationComponent().create()
+        // Injects this activity to the just created registration component
+        registrationComponent.inject(this)
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)

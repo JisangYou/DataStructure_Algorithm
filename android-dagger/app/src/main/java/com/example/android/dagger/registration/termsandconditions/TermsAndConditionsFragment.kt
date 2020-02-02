@@ -31,14 +31,15 @@ import javax.inject.Inject
 
 class TermsAndConditionsFragment : Fragment() {
 
-//    private lateinit var registrationViewModel: RegistrationViewModel
+    //    private lateinit var registrationViewModel: RegistrationViewModel
     @Inject
     lateinit var registrationViewModel: RegistrationViewModel
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
 
-        (activity!!.application as MyApplication).appComponent.inject(this)
+//        (activity!!.application as MyApplication).appComponent.inject(this)
+        (activity as RegistrationActivity).registrationComponent.inject(this)
     }
 
     override fun onCreateView(
