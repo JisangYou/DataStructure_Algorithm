@@ -29,7 +29,13 @@ private const val PASSWORD_SUFFIX = "password"
  */
 
 @Singleton
-class UserManager @Inject constructor (private val storage: Storage) {
+class UserManager @Inject constructor (
+//    private val storage: Storage
+    private val storage: Storage,
+    // Since UserManager will be in charge of managing the UserComponent lifecycle,
+    // it needs to know how to create instances of it
+    private val userComponentFactory: UserComponent.Factory
+) {
 
     /**
      *  UserDataRepository is specific to a logged in user. This determines if the user
@@ -37,6 +43,7 @@ class UserManager @Inject constructor (private val storage: Storage) {
      *  When the user logs out, this will be null.
      */
     var userDataRepository: UserDataRepository? = null
+
 
     val username: String
         get() = storage.getString(REGISTERED_USER)
@@ -76,4 +83,6 @@ class UserManager @Inject constructor (private val storage: Storage) {
     private fun userJustLoggedIn() {
         userDataRepository = UserDataRepository(this)
     }
+
+
 }
