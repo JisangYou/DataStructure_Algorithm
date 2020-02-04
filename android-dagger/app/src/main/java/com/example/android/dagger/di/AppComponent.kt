@@ -27,9 +27,9 @@ interface AppComponent {
 
     // Classes that can be injected by this Component
 
-    fun inject(activity: RegistrationActivity)
-    fun inject(fragment: EnterDetailsFragment)
-    fun inject(fragment: TermsAndConditionsFragment)
+//    fun inject(activity: RegistrationActivity)
+//    fun inject(fragment: EnterDetailsFragment)
+//    fun inject(fragment: TermsAndConditionsFragment)
     // Expose RegistrationComponent factory from the graph
     fun registrationComponent(): RegistrationComponent.Factory
     fun loginComponent(): LoginComponent.Factory

@@ -41,9 +41,9 @@ class MainActivity : AppCompatActivity() {
      *
      */
 
-    @Inject
+//    @Inject
 //    private lateinit var userManager: UserManager
-    lateinit var userManager: UserManager
+//    lateinit var userManager: UserManager
 
     @Inject
 //    private lateinit var mainViewModel: MainViewModel
@@ -55,10 +55,12 @@ class MainActivity : AppCompatActivity() {
      * else carry on with MainActivity
      */
     override fun onCreate(savedInstanceState: Bundle?) {
-        (application as MyApplication).appComponent.inject(this)
+//        (application as MyApplication).appComponent.inject(this)
         super.onCreate(savedInstanceState)
 
 //        val userManager = (application as MyApplication).userManager
+        val userManager = (application as MyApplication).appComponent.userManager()
+
         if (!userManager.isUserLoggedIn()) {
             if (!userManager.isUserRegistered()) {
                 startActivity(Intent(this, RegistrationActivity::class.java))
@@ -71,6 +73,9 @@ class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main)
 
 //            mainViewModel = MainViewModel(userManager.userDataRepository!!)
+            // If the MainActivity needs to be displayed, we get the UserComponent from the
+            // application graph and gets this Activity injected
+            userManager.userComponent!!.inject(this)
             setupViews()
         }
     }
