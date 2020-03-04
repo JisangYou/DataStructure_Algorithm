@@ -40,7 +40,7 @@ Android KTX는 Android Jetpack과 기타 Android 라이브러리에 포함된 Ko
 다만 Application 컨택스트를 저장하는 것은 문제가 되지 않습니다. Application 컨택스트는 전체 앱의 수명주기를 의미하기 때문에 메모리 릭에 영향을 주지 않으며 이런 용도를 위해 AndroidViewModel 클래스를 제공
 ```
 
-- 코루틴
+## 코루틴
 ```
 suspend는 모든 로컬 변수를 저장하여 현재 코루틴 실행을 정지합니다.
 resume은 정지된 위치부터 정지된 코루틴을 계속 실행합니다.
@@ -62,7 +62,7 @@ view->viewModel의 의존성을 줄이기 위해 databinding을 사용
 
 출처: https://umbum.dev/915
 
-## Memo
+## var vs val
 
 - var vs val
 val : 변할 수 없는 상수
@@ -88,7 +88,7 @@ fun sum(a:Int, b:Int) = a+b
 
 ```
 
-- lateinit, lazy
+## lateinit, lazy
 Late-Initialized Properties :
 초기화 지연 프로퍼티(Late-initialized property)라고 하며 프로퍼티의 초기화를 나중에 하기 위해 사용하는 키워드다. 프로퍼티 선언에 사용되며 항상 사용 가능한 것은 아니다. 사용하기에 몇 가지 제약사항이 있다.
 var(mutable) 프로퍼티만 사용 가능
@@ -118,7 +118,7 @@ lazy 프로퍼티 연산은 기본적으로 동기화된다.
 출처 : https://medium.com/@joongwon/kotlin-kotlin-lazy-initialization-901079296e43
 
 
-- let(), apply()
+## let(), apply()
 
 let()은 함수를 호출하는 객체를 이어지는 블록의 인자로 넘기고, 블록의 결과값을 반환합니다.
 
@@ -132,18 +132,18 @@ apply()는 함수를 호출하는 객체를 이어지는 블록의 리시버 로
 출처 : https://www.androidhuman.com/lecture/kotlin/2016/07/06/kotlin_let_apply_run_with/
 
 
-- Thread & Coroutine
+## Thread & Coroutine
 Thread, Coroutine 모두 Concurrency 동시성 (Interleaving) 를 보장하기 위한 기술입니다. 여러개의 작업을 동시에 수행할 때 Thread 는 각 작업에 해당하는 메모리 영역을 할당하는데, 여러 작업을 동시에 수행해야하기 때문에 OS 레벨에서 각 작업들을 얼만큼씩 분배하여 수행해야지 효율적일지 Preempting Scheduling 을 필요로 합니다. A 작업 조금 B 작업 조금을 통해 최종적으로 A 작업과 B 작업 모두를 이뤄내는 것입니다. Coroutine 은 Lightweight Thread 라고 불립니다. 이 또한 작업을 효율적으로 분배하여 조금씩 수행하여 완수하는 Concurrency 를 목표로하지만 각 작업에 대해 Thread 를 할당하는 것이 아니라 작은 Object 만을 할당해주고 이 Object 들을 자유자재로 스위칭함으로써 Switching 비용을 최대한 줄였습니다.
 
 출처 : https://aaronryu.github.io/2019/05/27/coroutine-and-thread/
 
-- 코루틴
+## 코루틴
 
 기본 function에서 단순히 suspend만 붙임으로써 cortouine을 이용하여 background에서 동작하는 함수를 생성할 수 있습니다.
 
 출처: https://tourspace.tistory.com/272 [투덜이의 리얼 블로그]
 
-- 수명 주기 인식 코루틴 범위
+## 수명 주기 인식 코루틴 범위
 
 ViewModelScope는 앱의 각 ViewModel에서 정의
 
@@ -179,5 +179,11 @@ class MyFragment: Fragment() {
 - CoroutineScope, viewModelScope
 
 
-- withContext()
+## withContext()
 코루틴을 사용하면 세부적인 제어를 통해 스레드를 전달할 수 있습니다. withContext()를 사용하면 콜백을 도입하지 않고도 코드 줄의 스레드 풀을 제어할 수 있으므로 데이터베이스 읽기, 네트워크 요청 수행과 같은 매우 작은 함수에 이를 적용할 수 있습니다. withContext()를 사용하여 모든 함수가 기본적으로 안전한지, 즉 기본 스레드에서 함수를 호출할 수 있는지 확인하는 것이 좋습니다. 이 경우 호출자는 함수를 실행하는 데 사용할 스레드를 생각할 필요가 없습니다.
+
+# companion object
+
+- 클래스의 인스턴스와 상관없이 호출해야 하지만 class의 내부 정보에 접근할수 있는 함수가 필요할때 companion object를 class 내부에 선언
+
+출처: https://tourspace.tistory.com/109 [투덜이의 리얼 블로그]
