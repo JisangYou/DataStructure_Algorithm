@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WidgetSample</string>
+    <string name="appwidget_text">Test Widget</string>
+</resources>
