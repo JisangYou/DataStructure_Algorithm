@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946fce03-b60a-47d8-99ef-97b1387a99d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clickable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Button.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Function2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Function2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/FunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/FunctionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Class.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="416">
+              <caret line="110" column="51" lean-forward="true" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -381,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Class.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="416">
+          <caret line="110" column="51" lean-forward="true" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
         </state>
       </provider>
     </entry>
