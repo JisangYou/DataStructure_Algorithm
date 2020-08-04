@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946fce03-b60a-47d8-99ef-97b1387a99d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Class3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Animated.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Btn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ButtonView$ButtonState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ButtonView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Class2Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Clickable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Clickable2$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Clickable2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr2$Num.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr2$Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Focusable$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Focusable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Function2Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/FunctionKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Num.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/RichBtn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/RichButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/TalkativeButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/UserSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/UserSample2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ViewState$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ViewState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Class.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Class2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clickable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Clickable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Function.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Function2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/Class3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Class3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,25 +172,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1596517618991">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1596521004227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596517618991" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596521004227" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1596431802500" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1596517618989">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1596521004226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596517618989" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596521004226" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1596431802498" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1596517618988">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1596521004225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596517618988" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596521004225" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1596431802497" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1596517618990">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1596521004226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596517618990" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596521004226" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1596431802499" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1596517496099">
       <screen x="0" y="23" width="1440" height="798" />
