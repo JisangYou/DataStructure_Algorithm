@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946fce03-b60a-47d8-99ef-97b1387a99d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Class3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Animated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Btn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ButtonView$ButtonState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ButtonView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Class2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ClassKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Clickable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Clickable2$DefaultImpls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Clickable2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr2$Num.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr2$Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Expr2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Focusable$DefaultImpls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Focusable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Function2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/FunctionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Num.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/RichBtn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/RichButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/TalkativeButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/UserSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/UserSample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ViewState$DefaultImpls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ViewState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Class.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Class2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clickable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Clickable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Function.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Function2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Function2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +64,6 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1fSOj6JyeWnystN5c2YtWaocIlH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,34 +74,66 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Kotlin.Class2Kt">
-    <configuration name="Class2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Chapter3" />
+      <recent name="$PROJECT_DIR$/src/Chapter4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Chapter4.Class3Kt">
+    <configuration name="Chapter3.Function2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinInAction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Class2Kt" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.Function2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter4.Class2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinInAction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ClassKt" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Class2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeArrangeSampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter4.Class3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinInAction" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Class3Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter4.ClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinInAction" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.ClassKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeArrangeSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinInAction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -83,39 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinInAction" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="CollectionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Function2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinInAction" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Function2Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Class2Kt" />
-        <item itemvalue="Kotlin.ClassKt" />
+        <item itemvalue="Kotlin.Chapter4.Class3Kt" />
+        <item itemvalue="Kotlin.Chapter4.Class2Kt" />
+        <item itemvalue="Kotlin.Chapter4.ClassKt" />
         <item itemvalue="Kotlin.CodeArrangeSampleKt" />
-        <item itemvalue="Kotlin.Function2Kt" />
-        <item itemvalue="Kotlin.CollectionKt" />
+        <item itemvalue="Kotlin.Chapter3.Function2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -172,25 +209,29 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1596431802500">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1596517618991">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596517618991" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1596431802500" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1596431802498">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1596517618989">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596517618989" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1596431802498" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1596431802497">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1596517618988">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596517618988" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1596431802497" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1596431802499">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1596517618990">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596517618990" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1596431802499" />
-    <state x="397" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1596429291393">
+    <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1596517496099">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1596429291393" />
+    <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1596517496099" />
   </component>
 </project>
