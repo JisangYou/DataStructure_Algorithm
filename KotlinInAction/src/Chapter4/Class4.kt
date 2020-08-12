@@ -22,15 +22,13 @@ object CaseInsensitiveFileComparator : Comparator<File> {
 }
 
 
-/**
- * 클래스 안에 정의된 객체 중 하나에 companion이라는 특별한 표시를 붙이면 그 클래스와 동반 객체로 만들 수 있음.
- */
-
-
 fun main() {
     println(CaseInsensitiveFileComparator.compare(File("/User"), File("/user")))
     val persons = listOf(Person("Bob"), Person("Alice"))
     println(persons.sortedWith(Person.NameComparator))
 
     Companion.bar()
+    val subscribingUser = User2.newSubscribingUser("bob@gmail.com")
+//    val facebookUser = User2.newFacebookUser(4)
+    println(subscribingUser.nickname)
 }
