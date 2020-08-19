@@ -5,4 +5,3 @@ fun main() {
     println(Person2.fromJSON("hi"))
 }
 
-
