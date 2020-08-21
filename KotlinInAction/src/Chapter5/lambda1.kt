@@ -31,6 +31,17 @@ fun main() {
 
     val responses = listOf("200 OK", "418 I'm a teapot", "500 Internal Server Error")
     println(printProblemCounts(responses))
+
+    /**
+     * 5.1.5 멤버 참조
+     * ::를 사용하는 식을 멤버 참조라고 부른다.
+     */
+
+    fun salute() = println("Salute!")
+    run(::salute)
+    val createPerson = ::Person3
+    val p = createPerson("Alice", 29)
+    println(p)
 }
 
 /**
@@ -73,3 +84,6 @@ fun printProblemCounts(responses: Collection<String>) {
     }
     println("$clientErrors client errors, $serverErrors server errors")
 }
+
+
+
