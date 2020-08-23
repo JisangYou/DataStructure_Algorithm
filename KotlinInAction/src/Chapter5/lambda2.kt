@@ -35,6 +35,19 @@ fun main() {
     println(list3.any { it != 3 })
     println(people.count(canBeInClub27))
     println(people.find(canBeInClub27))
+
+
+    /**
+     * 5.2.3 group by
+     */
+    val list4 = listOf("a", "ab", "b")
+    println(list4.groupBy(String::first))
+
+    /**
+     * 5.2.4 flatMap과 flatten : 중첩된 컬렉션 안의 원소 처리
+     */
+    val strings = listOf("abc", "def")
+    println(strings.flatMap { it.toList() })
 }
 
 
