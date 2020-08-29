@@ -14,6 +14,8 @@ fun main() {
     println("alphabet : " + alphabetWith())
     println("alphabet2 : " + alphabetWith2())
     println("alphabet3 : " + alphabetWith3())
+    println("alphabet4 : " + alphabetApply())
+    println("alphabet5 : " + alphabetApply2())
 
 }
 
