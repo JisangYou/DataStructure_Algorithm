@@ -3,8 +3,9 @@ package com.example.hilt.util
 import android.annotation.SuppressLint
 import java.text.SimpleDateFormat
 import java.util.*
+import javax.inject.Inject
 
-class DateFormatter {
+class DateFormatter @Inject constructor() {
 
     @SuppressLint("SimpleDateFormat")
     private val formatter = SimpleDateFormat("d MMM yyyy HH:mm:ss")

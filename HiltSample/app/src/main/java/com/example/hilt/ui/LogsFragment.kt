@@ -12,21 +12,23 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.hilt.LogApplication
 import com.example.hilt.R
 import com.example.hilt.data.Log
+import com.example.hilt.data.LoggerDataSource
 import com.example.hilt.data.LoggerLocalDataSource
+import com.example.hilt.di.InMemoryLogger
 import com.example.hilt.util.DateFormatter
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
+@AndroidEntryPoint
 class LogsFragment : Fragment() {
 
+    @InMemoryLogger
+    @Inject
+    lateinit var logger: LoggerDataSource
 
-    private lateinit var logger: LoggerLocalDataSource
-
-
-    private lateinit var dateFormatter: DateFormatter
-
+    @Inject
+    lateinit var dateFormatter: DateFormatter
     private lateinit var recyclerView: RecyclerView
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -44,7 +46,7 @@ class LogsFragment : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        populateFields(context)
+//        populateFields(context)
     }
 
 
@@ -52,7 +54,6 @@ class LogsFragment : Fragment() {
         logger = (context.applicationContext as LogApplication).serviceLocator.loggerLocalDataSource
         dateFormatter =
             (context.applicationContext as LogApplication).serviceLocator.provideDateFormatter()
-
     }
 
     override fun onResume() {

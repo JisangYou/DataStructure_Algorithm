@@ -6,8 +6,9 @@ import com.example.hilt.R
 import com.example.hilt.ui.ButtonsFragment
 import com.example.hilt.ui.LogsFragment
 import kotlinx.android.synthetic.main.activity_main.view.*
+import javax.inject.Inject
 
-class AppNavigatorImpl(private val activity: FragmentActivity) : AppNavigator {
+class AppNavigatorImpl @Inject constructor(private val activity: FragmentActivity) : AppNavigator {
     override fun navigateTo(screen: Screens) {
         val fragment = when (screen) {
             Screens.BUTTONS -> ButtonsFragment()

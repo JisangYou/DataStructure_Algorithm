@@ -2,6 +2,7 @@ package com.example.hilt.ui
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -9,14 +10,24 @@ import android.view.ViewGroup
 import android.widget.Button
 import com.example.hilt.LogApplication
 import com.example.hilt.R
+import com.example.hilt.data.LoggerDataSource
 import com.example.hilt.data.LoggerLocalDataSource
+import com.example.hilt.di.InMemoryLogger
 import com.example.hilt.navigator.AppNavigator
 import com.example.hilt.navigator.Screens
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
+
+@AndroidEntryPoint
 class ButtonsFragment : Fragment() {
 
-    private lateinit var logger: LoggerLocalDataSource
-    private lateinit var navigator: AppNavigator
+    @InMemoryLogger
+    @Inject
+    lateinit var logger: LoggerDataSource
+
+    @Inject
+    lateinit var navigator: AppNavigator
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,14 +52,18 @@ class ButtonsFragment : Fragment() {
 
         view.findViewById<Button>(R.id.button1).setOnClickListener {
             logger.addLog("Interaction with 'Button 1'")
+            Log.e("check1","1")
+
         }
 
         view.findViewById<Button>(R.id.button2).setOnClickListener {
             logger.addLog("Interaction with 'Button 2'")
+            Log.e("check2","2")
         }
 
         view.findViewById<Button>(R.id.button3).setOnClickListener {
             logger.addLog("Interaction with 'Button 3'")
+            Log.e("check3","3")
         }
 
         view.findViewById<Button>(R.id.all_logs).setOnClickListener {
