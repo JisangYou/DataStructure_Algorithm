@@ -34,7 +34,23 @@ fun main() {
     println(p1 == p2)
     println(p1.equals(42))
 
-    println(ignoreNulls(null))
+//    println(ignoreNulls(null))
+
+    var email: String? = "jay@example.com"
+    email?.let { sendEmailTo(it) }
+    email = null
+    email?.let { sendEmailTo(it) }
+
+
+    /**
+     * 6.9 let을 사용해 null이 아닌 인자로 함수 호출하기
+     *
+     * val person: Person? = getTheBestPersonInTheWorld()
+     * if(person != null) sendEmailTo(person.email)
+     *
+     * getTheBestPersonInTheWorld()?.let {sendEmailTo(it.email)}
+     *
+     * */
 
 }
 
@@ -116,6 +132,23 @@ fun ignoreNulls(s: String?) {
     println(sNotNull.length) // <-- 이곳이 아니다.
     // 즉, 나는 이 값이 null이 아님을 잘 알 고 있다. 내가 잘 못 생각했다면 예외가 발생해도 감수하겠다라는 의미
 }
+
+
+/**
+ * 6.1.7 let 함수
+ * let 함수를 사용하면 널이 될 수 있는 식을 더 쉽게 다룰 수 있다. let 함수를 안전한 호출 연산자와 함께 사용하면 원하는 식을 평가해서 결과가 널인지 검사한 다음에 그 결과를 변수에 넣는 작업을 간단한 식을 사용해 한꺼번에 처리 가능
+ */
+
+/**
+ * 6.9 let을 사용해 null이 아닌 인자로 함수 호출하기
+ */
+
+fun sendEmailTo(email: String) {
+    println("Sending email to $email")
+}
+
+
+
 
 
 
