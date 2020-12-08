@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c4050e-b96c-4652-b7bd-491ee675db39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic7.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinInAction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinInAction/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="62c4050e-b96c-4652-b7bd-491ee675db39" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/basic7.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="266">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="e#0#102#0" expanded="true" />
               </folding>
@@ -339,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basic7.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#0#102#0" expanded="true" />
           </folding>
