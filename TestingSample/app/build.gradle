@@ -65,4 +65,6 @@ dependencies {
     testImplementation "io.mockk:mockk:$mockk_version"
     androidTestImplementation "io.mockk:mockk-android:$mockk_version"
 
+    testImplementation 'org.mockito:mockito-core:2.22.0'
+
 }
