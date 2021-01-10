@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.0"
     defaultConfig {
         applicationId "com.example.testingsample"
-        minSdkVersion 15
+        minSdkVersion 18
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -64,7 +64,15 @@ dependencies {
     def mockk_version = "1.10.0"
     testImplementation "io.mockk:mockk:$mockk_version"
     androidTestImplementation "io.mockk:mockk-android:$mockk_version"
+    // junit framework
+    testImplementation 'junit:junit:4.13.1'
 
-    testImplementation 'org.mockito:mockito-core:2.22.0'
+    // Mockito framework
+    testImplementation 'org.mockito:mockito-core:2.25.0'
+
+    // Espresso framework
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
 
 }
