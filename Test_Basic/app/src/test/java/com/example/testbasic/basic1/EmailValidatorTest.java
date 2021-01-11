@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.testbasic.basic;
-
-import com.example.testbasic.basic1.EmailValidator;
+package com.example.testbasic.basic1;
 
 import org.junit.Test;
 

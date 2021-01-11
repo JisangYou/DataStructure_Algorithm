@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.testbasic.basic1.Basic1Activity;
+import com.example.testbasic.basic2.Basic2Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.button2:
+                Intent intent2 = new Intent(this, Basic2Activity.class);
+                startActivity(intent2);
                 break;
             case R.id.button3:
                 break;

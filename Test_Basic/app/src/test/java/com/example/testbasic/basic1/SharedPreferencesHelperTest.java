@@ -14,12 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.testbasic.basic;
+package com.example.testbasic.basic1;
 
 import android.content.SharedPreferences;
-
-import com.example.testbasic.basic1.SharedPreferenceEntry;
-import com.example.testbasic.basic1.SharedPreferencesHelper;
 
 import org.junit.Before;
 import org.junit.Test;
