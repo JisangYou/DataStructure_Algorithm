@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.testbasic.basic1.Basic1Activity;
 import com.example.testbasic.basic2.Basic2Activity;
+import com.example.testbasic.basic3.Basic3Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent2);
                 break;
             case R.id.button3:
+                Intent intent3 = new Intent(this, Basic3Activity.class);
+                startActivity(intent3);
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + v.getId());

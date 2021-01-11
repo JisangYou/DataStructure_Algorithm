@@ -22,9 +22,10 @@ public class EspressoTest {
     @Test
     public void myTest() {
         // edit_text를 찾아서 거기에 crocus라는 내용을 적는다.
-        Espresso.onView(ViewMatchers.withId(R.id.edit_text)).perform(ViewActions.typeText("crocus"), ViewActions.closeSoftKeyboard());
+        Espresso.onView(ViewMatchers.withId(R.id.edit_text)).perform(ViewActions.typeText("jay_you"), ViewActions.closeSoftKeyboard());
         // text_view를 찾아서 현재 textView에 담긴 내용이 crocus인지 확인한다. (assert이용)
-        Espresso.onView(ViewMatchers.withId(R.id.text_view)).check(ViewAssertions.matches(ViewMatchers.withText("crocus")));
+        Espresso.onView(ViewMatchers.withId(R.id.text_view)).check(ViewAssertions.matches(ViewMatchers.withText("jay_you")));
+//        Espresso.onView(ViewMatchers.withId(R.id.text_view)).check(ViewAssertions.matches(ViewMatchers.withText("jisang")));
         // 버튼을 클릭하게 만들어 Toast가 나타나도록한다.(토스트는 앞선 MainActivity에 버튼 행동 정의)
         Espresso.onView(ViewMatchers.withId(R.id.btn)).perform(ViewActions.click());
 
