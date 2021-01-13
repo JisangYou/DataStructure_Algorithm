@@ -13,6 +13,7 @@ import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 
+//@RunWith - 각각의 테스트 별로 객체가 생성되더라도 싱글톤(Singletone)의 ApplicationContext를 보장
 @RunWith(AndroidJUnit4.class)
 public class EspressoTest {
     // 해당 activity에서 실행하고자 함을 나타낸다.

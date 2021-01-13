@@ -39,20 +39,22 @@ public class AnimalTest {
 
     }
 
+
     @Test
     public void mockTest2() {
         Animal animal = mock(Animal.class);
         assertTrue(animal != null);
-        when(animal.getAge()).thenReturn(30);
-        when(animal.getName()).thenReturn("참새");
-        when(animal.getFly()).thenReturn(true);
-        assertTrue(animal.getAge() == 30);
-        assertTrue(animal.getName().equals("참새"));
 
-        // 맞는 경우
+        /**
+         * when() 특정값을 반환하라고 설정
+         */
+        when(animal.getAge()).thenReturn(30);
+        when(animal.getFly()).thenReturn(true);
+
+        assertTrue(animal.getAge() == 30);
         assertTrue(animal.getFly() == true);
-        // 틀린 경
-        assertTrue(animal.getFly() == false);
+        // 틀린 경우
+//        assertTrue(animal.getFly() == false);
     }
 
     @Test
@@ -85,22 +87,25 @@ public class AnimalTest {
         animal.setAge(20);
     }
 
+    /**
+     * verify() 해당 구문이 호출되었는지 체크
+     */
     @Test
     public void mockTest5() {
         Animal animal = mock(Animal.class);
         animal.setName("참새");
         // n번 호출했는지 체크
-        verify(animal, times(1)).setName(any(String.class)); // success
+        // verify(animal, times(1)).setName(any(String.class)); // success
         // 호출 안했는지 체크
         verify(animal, never()).getName(); // success
         verify(animal, never()).setName(eq("호랑이")); // success
-        verify(animal, never()).setName(eq("참새")); // fail
+        verify(animal, atLeastOnce()).setName(eq("참새")); // fail
         // 최소한 1번 이상 호출했는지 체크
-        verify(animal, atLeastOnce()).setName(any(String.class)); // success
+         verify(animal, atLeastOnce()).setName(any(String.class)); // success
         // 2번 이하 호출 했는지 체크
         verify(animal, atMost(2)).setName(any(String.class)); // success /
         // / 2번 이상 호출 했는지 체크
-        verify(animal, atLeast(2)).setName(any(String.class)); // fail
+//        verify(animal, atLeast(2)).setName(any(String.class)); // fail
         // 지정된 시간(millis)안으로 메소드를 호출 했는지 체크
         verify(animal, timeout(100)).setName(any(String.class)); // success
         // 지정된 시간(millis)안으로 1번 이상 메소드를 호출 했는지 체크

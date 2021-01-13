@@ -37,7 +37,10 @@ import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.when;
 
 
-
+/**
+ * Mock 객체 생성하는 케이스.
+ * SharedPreference
+ */
 @RunWith(MockitoJUnitRunner.class)
 public class SharedPreferencesHelperTest {
 

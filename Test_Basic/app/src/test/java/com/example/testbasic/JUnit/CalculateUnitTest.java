@@ -1,4 +1,4 @@
-package com.example.testbasic.jUnit;
+package com.example.testbasic.JUnit;
 
 import org.junit.Before;
 import org.junit.Test;

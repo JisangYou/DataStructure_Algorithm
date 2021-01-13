@@ -1,4 +1,4 @@
-package com.example.testbasic.jUnit;
+package com.example.testbasic.JUnit;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -6,14 +6,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class Annotation_theory {
-
-    /**
-     *
-     * jUnit에 사용되는 annotation이 무엇을 의미할까요?
-     *
-     */
-
+public class Annotation_Example {
 
     /**
      * 1. 테스트 메소드 지정
