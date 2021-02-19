@@ -1,5 +1,6 @@
 package com.example.rxkotlin
 
+import com.example.rxkotlin.ReactiveCalculator.ReactiveCalculator
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.rxkotlin.toObservable
 import io.reactivex.subjects.PublishSubject
@@ -102,5 +103,13 @@ class ExampleUnitTest {
     }
 
     private fun doSomeStuff(a: Int = 0) = a + (a * a)
+
+    /**
+     * 계산기 테스
+     */
+    @Test
+    fun calc1() {
+        ReactiveCalculator(2,3)
+    }
 
 }
