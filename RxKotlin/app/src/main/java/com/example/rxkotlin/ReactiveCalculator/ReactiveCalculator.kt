@@ -35,6 +35,7 @@ class ReactiveCalculator(a: Int, b: Int) {
     }
 
     private fun calculateAddition() {
+        println("calculateAddition")
         subjectAdd.onNext(nums)
     }
 
