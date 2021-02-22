@@ -1,114 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="946fce03-b60a-47d8-99ef-97b1387a99d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/Convention.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/Button.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/Function2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/Function2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/FunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/FunctionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter3/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Animated.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Animated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Btn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Btn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ButtonView$ButtonState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ButtonView$ButtonState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ButtonView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ButtonView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CaseInsensitiveFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CaseInsensitiveFileComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class5Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Class5Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ClassKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Clickable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Clickable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Clickable2$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Clickable2$DefaultImpls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Clickable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Clickable2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Client4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Companion$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Companion$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CountClicks$countClicks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CountClicks$countClicks$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CountClicks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CountClicks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CountingSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/CountingSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr2$Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr2$Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr2$Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr2$Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Expr2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/FacebookUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/FacebookUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Focusable$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Focusable$DefaultImpls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Focusable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Focusable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/LengthCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/LengthCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/MyButtonSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/MyButtonSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Outer$Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Outer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person$NameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person$NameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person2$Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person2$Loader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Person2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/PrivateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/PrivateUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/RichBtn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/RichBtn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/RichButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/RichButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/SubscribingUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/SubscribingUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/TalkativeButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/TalkativeButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/TwitterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/TwitterUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User2$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User2$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/User2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/UserSample5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ViewSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ViewSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ViewState$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ViewState$DefaultImpls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ViewState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter4/ViewState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$createPerson$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$createPerson$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$names$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt$main$names$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda2Kt$main$canBeInClub27$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda2Kt$main$canBeInClub27$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$isInsideHiddenDirectory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$isInsideHiddenDirectory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample3$naturalNumbers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample3$naturalNumbers$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample3$numbersTo100$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt$sample3$numbersTo100$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Lambda4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Person3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter5/Person3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/MyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Person2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Person4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Person4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Type2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Type2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Type3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/Type3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/TypeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter6/TypeKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter7/OverloadingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter7/OverloadingKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter7/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Chapter7/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt$refactoringSaveUser1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt$refactoringSaveUser1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt$refactoringSaveUser2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt$refactoringSaveUser2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt$validateBeforeSave$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt$validateBeforeSave$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/CodeArrangeSampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/CollectionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/CollectionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/ExceptionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/ExceptionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/IteraterKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/IteraterKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/META-INF/KotlinInAction.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter7/Overloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Overloading.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RxKotlin/app/src/main/java/com/example/rxkotlin/ReactiveCalculator/ReactiveCalculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RxKotlin/app/src/main/java/com/example/rxkotlin/ReactiveCalculator/ReactiveCalculator.kt" afterDir="false" />
-    </list>
+    <list default="true" id="946fce03-b60a-47d8-99ef-97b1387a99d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,46 +188,32 @@
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613826093527" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613826093527" />
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613826093527" />
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1613831283161">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1613832286608">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613831283161" />
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613832286608" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613826093527" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1613826093527" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1613831283159">
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1613832286606">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613831283159" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613832286606" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613826093527" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1613826093527" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1613831283158">
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1613832286605">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613831283158" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613832286605" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613826093527" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1613826093527" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1613831283160">
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1613832286607">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613831283160" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613832286607" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613826093527" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1613826093527" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1613826093527" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1613826093527" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/Chapter7/Convention.kt</url>
-          <line>5</line>
-          <properties method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

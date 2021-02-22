@@ -15,7 +15,7 @@ import javax.security.auth.Subject
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class Basic {
     @Test
     fun test1() {
         val list: List<Any> = listOf("One", 2, "Three", "Four", 4.5, "Five", 6.0f)
