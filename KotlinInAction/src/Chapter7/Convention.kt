@@ -1,21 +1,26 @@
 package Chapter7
 
 import java.lang.IndexOutOfBoundsException
+import java.lang.reflect.Type
 import java.time.LocalDate
 
 fun main() {
 
-    println(now.plusWeeks(1) in vacation)
-    val newYear = LocalDate.ofYearDay(2017, 1)
-    val daysOff = newYear.minusDays(1)..newYear
-    for (dayoff in daysOff) {
-        println(dayoff)
-    }
-    val (name, ext) = splitFilename("example.kt")
-    println(name)
-    println(ext)
-    val map = mapOf("Oracle" to "Java", "JetBrains" to "Kotlin")
-    printEntries(map)
+//    println(now.plusWeeks(1) in vacation)
+//    val newYear = LocalDate.ofYearDay(2017, 1)
+//    val daysOff = newYear.minusDays(1)..newYear
+//    for (dayoff in daysOff) {
+//        println(dayoff)
+//    }
+//    val (name, ext) = splitFilename("example.kt")
+//    println(name)
+//    println(ext)
+//    val map = mapOf("Oracle" to "Java", "JetBrains" to "Kotlin")
+//    printEntries(map)
+//    val rect = Rectangle(Point(10, 20), Point(50, 50))
+//    println(Point(5, 5) in rect)
+//    println(Point(20, 30) in rect)
+
 }
 
 // 구조 분해 선언과 component 함
@@ -69,3 +74,13 @@ fun printEntries(map: Map<String, String>) {
         println("$key -> $value")
     }
 }
+
+// in 관례
+data class Rectangle(val upperLeft: Point, val lowerRight: Point)
+
+operator fun Rectangle.contains(p: Point): Boolean {
+    return p.x in upperLeft.x until lowerRight.x &&
+            p.y in upperLeft.y until lowerRight.y
+}
+
+
