@@ -6,7 +6,7 @@ import io.reactivex.disposables.Disposable
 import io.reactivex.rxkotlin.toObservable
 import java.util.*
 
-class Observer {
+class ObserverSample1 {
 
         val observer: Observer<Any> = object : Observer<Any> {
                 override fun onComplete() {
