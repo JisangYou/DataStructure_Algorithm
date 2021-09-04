@@ -2,8 +2,6 @@
 
 ## 목차
 
-| <center>[Coroutines-Test](./Coroutines)</center> | <center>Coroutines</center> |
-
 ## AAC 
 
 - AAC
