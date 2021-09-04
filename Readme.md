@@ -2,11 +2,6 @@
 
 ## 목차
 
-| <center>Subject</center> | <center>Summary</center> |
-|:--------:|:--------:|
-| <center>[AboutMe](./AboutMe)</center> | <center>AboutMe</center> |
-| <center>[Basic](./Basic)</center> | <center>Basic</center> |
-| <center>[ColorMyViews](./ColorMyViews)</center> | <center>ColorMyViews</center> |
 | <center>[Coroutines-Test](./Coroutines)</center> | <center>Coroutines</center> |
 
 ## AAC 
