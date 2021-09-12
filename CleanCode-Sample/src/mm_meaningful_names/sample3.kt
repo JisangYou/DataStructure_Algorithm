@@ -1,4 +1,4 @@
-package mm_meaningful_name
+package mm_meaningful_names
 
 
 fun uncleanMeaning() {

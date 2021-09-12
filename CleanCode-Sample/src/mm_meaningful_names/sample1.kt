@@ -1,4 +1,4 @@
-package mm_meaningful_name
+package mm_meaningful_names
 
 data class GetFile(val d: String, val n: String)
 data class PathParts(val directory: String, val fileName: String)
