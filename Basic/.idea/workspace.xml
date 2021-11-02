@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6f9b982-d3fa-46e2-ba37-758360f3ef1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Infix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinInAction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinInAction/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coroutines-Test/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Coroutines-Test/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coroutines-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Coroutines-Test/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -24,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="130" />
@@ -32,24 +38,40 @@
   </component>
   <component name="ProjectId" id="1fSOKBserfVgdfQGn5RuwKMrdt8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KotlinInAction" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Basic.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Kotlin.Test_1Kt">
+  <component name="RunManager" selected="Application.InfixKt">
+    <configuration type="Application" factoryName="Application">
+      <module name="Kotlin_lang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_lang" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="InfixKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_lang" />
       <option name="VM_PARAMETERS" />
@@ -89,14 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.InfixKt" />
+      <item itemvalue="Application.Test_1Kt" />
+      <item itemvalue="Application.Test_2Kt" />
+      <item itemvalue="Application.Test_3Kt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Test_1Kt" />
-        <item itemvalue="Kotlin.Test_3Kt" />
-        <item itemvalue="Kotlin.Test_2Kt" />
+        <item itemvalue="Application.InfixKt" />
+        <item itemvalue="Application.Test_2Kt" />
+        <item itemvalue="Application.Test_1Kt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,5 +149,67 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1888" y="118" key="#Project_Structure" timestamp="1635866867830">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1888" y="118" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635866867830" />
+    <state x="1864" y="199" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635867427845">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1864" y="199" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867427845" />
+    <state x="2137" y="346" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1635867349850">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2137" y="346" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867349850" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1635867973426">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867973426" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443512" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1635867973424">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867973424" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443510" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1635867973424">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867973424" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443508" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1635867973425">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867973425" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443511" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1635867443515">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867175212" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443515" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1635867443514">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867175210" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443514" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1635867443512">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867175209" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443512" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1635867443515">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867175211" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867443515" />
+    <state x="1888" y="118" key="SettingsEditor" timestamp="1635867783048">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1888" y="118" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1635867783048" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kotlin_lang$Test_1Kt.ic" NAME="Test_1Kt Coverage Results" MODIFIED="1635867175163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
