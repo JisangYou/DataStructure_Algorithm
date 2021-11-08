@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="62c4050e-b96c-4652-b7bd-491ee675db39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Basic/src/Infix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flowOperator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic1Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic2Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic2Kt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic2Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic3Kt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic3Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic3Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic4Kt$main$1$job$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic4Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic4Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic6Kt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic6Kt$main$1$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic6Kt$main$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic6Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic6Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic7Kt$doWorld$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic7Kt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic7Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/Basic7Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/META-INF/Coroutines-Test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/flow.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -49,13 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="20MuwguGbPpxyIi3EGjrkihFisd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,80 +44,52 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Basic2Kt">
-    <configuration name="Basic2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Coroutines-Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Basic2Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Basic3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Coroutines-Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Basic3Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.FlowOperatorKt">
     <configuration name="Basic4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Coroutines-Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Basic4Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Coroutines-Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Basic6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Coroutines-Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Basic6Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Coroutines-Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Basic7Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Coroutines-Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Basic7Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Coroutines-Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlowKt" />
+      <module name="Coroutines-Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlowOperatorKt" />
+      <module name="Coroutines-Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Basic2Kt" />
+        <item itemvalue="Kotlin.FlowOperatorKt" />
+        <item itemvalue="Kotlin.FlowKt" />
       </list>
     </recent_temporary>
   </component>
