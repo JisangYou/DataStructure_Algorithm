@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6f9b982-d3fa-46e2-ba37-758360f3ef1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interface/Child.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/Employee.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/MyInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/Named.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/mutiple/A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/mutiple/B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/mutiple/C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/mutiple/D.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +26,6 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
   </component>
   <component name="ProjectId" id="1fSOKBserfVgdfQGn5RuwKMrdt8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -118,10 +103,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InfixKt" />
       <item itemvalue="Application.Test_1Kt" />
       <item itemvalue="Application.Test_2Kt" />
       <item itemvalue="Application.Test_3Kt" />
-      <item itemvalue="Application.InfixKt" />
     </list>
     <recent_temporary>
       <list>
