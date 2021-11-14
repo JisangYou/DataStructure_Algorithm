@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c4050e-b96c-4652-b7bd-491ee675db39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flowOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flowCompareTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/flow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coroutines-Test/META-INF/Coroutines-Test.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coroutines-Test/META-INF/Coroutines-Test.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -50,14 +57,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Kotlin.FlowOperatorKt">
-    <configuration name="Basic4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic4Kt" />
-      <module name="Coroutines-Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.FlowCompareTestKt">
     <configuration name="Basic6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic6Kt" />
       <module name="Coroutines-Test" />
@@ -67,6 +67,13 @@
     </configuration>
     <configuration name="Basic7Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic7Kt" />
+      <module name="Coroutines-Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowCompareTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlowCompareTestKt" />
       <module name="Coroutines-Test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +95,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.FlowOperatorKt" />
+        <item itemvalue="Kotlin.FlowCompareTestKt" />
         <item itemvalue="Kotlin.FlowKt" />
+        <item itemvalue="Kotlin.FlowOperatorKt" />
       </list>
     </recent_temporary>
   </component>
