@@ -43,7 +43,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.InfixKt">
+  <component name="RunManager" selected="Kotlin.SingletonClassKt">
     <configuration type="Application" factoryName="Application">
       <module name="Kotlin_lang" />
       <method v="2">
@@ -51,68 +51,51 @@
       </method>
     </configuration>
     <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_lang" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="InfixKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Kotlin_lang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="object.SingletonClassKt" />
+      <module name="Kotlin_lang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_lang" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Test_1Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Kotlin_lang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_lang" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Test_2Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Kotlin_lang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_lang" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Test_3Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Kotlin_lang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InfixKt" />
-      <item itemvalue="Application.Test_1Kt" />
-      <item itemvalue="Application.Test_2Kt" />
-      <item itemvalue="Application.Test_3Kt" />
+      <item itemvalue="Kotlin.InfixKt" />
+      <item itemvalue="Kotlin.Test_1Kt" />
+      <item itemvalue="Kotlin.Test_2Kt" />
+      <item itemvalue="Kotlin.Test_3Kt" />
+      <item itemvalue="Kotlin.SingletonClassKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InfixKt" />
-        <item itemvalue="Application.Test_2Kt" />
-        <item itemvalue="Application.Test_1Kt" />
+        <item itemvalue="Kotlin.SingletonClassKt" />
+        <item itemvalue="Kotlin.InfixKt" />
       </list>
     </recent_temporary>
   </component>
