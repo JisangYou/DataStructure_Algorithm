@@ -24,3 +24,6 @@ fun main() = runBlocking {
         println(it)
     }
 }
+
+// suspending 함수를 이용하여 비동기적으로 값을 계산
+// Flow를 이용하여 비동기적으로 계산된 값을 하나씩 스트림 형태로 받을 수 있음.
